@@ -4,9 +4,13 @@
 <link rel="stylesheet" type="text/css" href="quiz.css">
 </head>
 
-<body>
+<body onload="instructions();">
+  <h3 id=timer>00:00:00</h3>
+ <input type="text" id="name" placeholder="Enter your name"  style="margin: 0 660px;"><button id="submit" class="submit" onclick="Name();" style="margin: 0 740px;">submit</button>
+ <br>
+ <br>
  <div id="quiz" class="container">
-   <img src="1.jfif" alt="corona virus" height="100" width=200" style="vertical-align:middle;margin:0 150px;">
+   <img src="1.jfif" alt="corona virus" height="120" width="250" style="vertical-align:middle;margin:0 150px;">
    <div class="title">Quiz</div>
    <div id="question" class="question"></div>
    <label class="option"><input type="radio" name="option" class="options" value="1"  onchange="check();"><span id="opt1"></span></label>
