@@ -2,18 +2,22 @@ body{
     background:skyblue;
 }
 
+#name{
+    width:225px;
+    height:30px;
+}
 .container{
 
     height:500px;
     width:500px;
     position:absolute;
-    top:50%;
+    top:59%;
     left:50%;
     transform: translateX(-50%) translateY(-50%);
-    background:palevioletred;
+    background:orchid;
     border :1px solid darkgoldenrod;
     padding:20px;
-
+    
 }
 
 .title{
@@ -48,7 +52,7 @@ body{
 .nextbutton{
     width:100px;
     height:40px;
-    background:rgba(255,25,255,0.5);
+    background:palevioletred;
     cursor: pointer;
     border-radius: 20px;
     float:right;
@@ -60,7 +64,31 @@ body{
     color:#f6f6f6;
 }
 .result{
-    height:100px;
+    height:170px;
     text-align:center;
-    font-size:75px;
+    font-size:50px;
+}
+
+.Questionpanel{
+    margin:0 580px;
+}
+.submitbutton{
+    width:60px;
+    height:20px;
+    background:white;
+    cursor: pointer;
+    border-radius: 20px;
+    
+    margin:5px;
+
+}
+.submit{
+    width:60px;
+    height:30px;
+    background:palevioletred;
+    cursor: pointer;
+    border-radius: 20px;
+    
+    margin:5px;
+
 }
